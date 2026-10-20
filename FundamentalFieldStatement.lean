@@ -83,7 +83,7 @@ integer specialization of coefficients, and fundamental-module weights.
 def Conjecture1 : Prop :=
   ∀ g : SimpleLieType, Conjecture1For g
 
-/-- Requested counterexample statement for the specific type D₄.
+/-- Counterexample statement for the specific type D₄.
 -/
 theorem conjecture1_false_for_D4 : ¬ Conjecture1For D₄ := by
   intro hconjecture
